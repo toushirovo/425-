@@ -1,0 +1,233 @@
+header{
+  background-color:#231C1A;
+  height:80px;
+  width:100%;
+  position:relative;
+}
+header ul{
+  position:absolute;
+  right:5vw;
+  top:30px;
+}
+*{
+  padding:0;
+  margin:0;
+}
+h1{
+  color:white;
+  position:absolute;
+  left:120px;
+  top:0;
+  line-height:80px;
+}
+header a {
+  color:blanchedalmond;
+  text-decoration: none;
+}
+header a:hover{
+  text-decoration: underline;
+}
+header li {
+  display:inline;
+  margin-right:4vw;
+}
+.news {
+   background-color: antiquewhite;
+   color:white;
+   height:85vh;
+   background-image: url("images/81530efd8057d4204a967ee6cb79c900e33adaf0.jpg@1192w.png"); 
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.news p{
+  color:aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  line-height: 1.8em;
+}
+.news a {
+ color:aliceblue;
+ text-decoration: none;
+ border:1px solid #acacac;
+ padding:10px 20px;
+ border-radius: 5px;
+}
+footer {
+  background-color: black;
+  color:#B7B7B7;
+  height:60px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tu p{
+  background-color: #231C1A;
+  background-image: url("images/下载.jpg");
+  background-size: cover;
+  color:aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  line-height: 1.8em;
+}
+.tu h2 {
+background-color: beige;
+color: brown;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  line-height: 1.8em;
+}
+.m {
+  background-color: #231C1A;
+  background-size:contain;
+  color:#B7B7B7;
+  font-size: 20px;
+  line-height: 5em;
+  margin:25px 0;
+  padding:10px 20px;
+}
+.OK {
+  background-color:burlywood;
+  background-size:contain;
+  color:#0c0b0b;
+  font-size: 20px;
+  line-height: 5em;
+  padding:10px 20px;
+}
+.off {
+  background-color:blanchedalmond;
+  background-size:contain;
+  color:#0c0b0b;
+  font-size: 20px;
+  line-height: 5em;
+  padding:10px 20px;
+}
+.general {
+  background-color:blanchedalmond;
+  background-size:contain;
+  color:#0c0b0b;
+  font-size: 20px;
+  line-height: 1.8em;
+  padding:10px 20px;
+}
+.hunt {
+  background-color:cornflowerblue;
+  background-size:contain;
+  color:#0c0b0b;
+  font-size: 18px;
+  line-height: 1.8em;
+  padding:10px 20px;
+}
+h2 {
+  background-color: black;
+  color:azure;
+  font-size: 27px;
+  background-size:contain;
+  line-height: 1.3em;
+  padding:10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.mw {
+  background-color: blueviolet;
+  background-size: contain;
+  font-size: 18px;
+  line-height: 1.8em;
+  padding:10px 20px;
+  color: #0c0b0b;
+}
+.nameless {
+  background-color:burlywood;
+  background-size: contain;
+  font-size: 18px;
+  line-height: 1.8em;
+  padding:10px 20px;
+  color: #0c0b0b;
+}
+.weak {
+  background-color:gray;
+  background-size: contain;
+  font-size: 18px;
+  line-height: 1.8em;
+  padding:10px 20px;
+  color: #0c0b0b;
+}
+.fr {
+  background-color: green;
+  background-size: contain;
+  font-size: 18px;
+  line-height: 1.8em;
+  padding:10px 20px;
+  color: #0c0b0b;
+}
+.hm {
+  background-color: orange;
+  background-size: contain;
+  font-size: 18px;
+  line-height: 1.8em;
+  padding:10px 20px;
+  color: #0c0b0b;
+}
+.tx {
+  background-color: rgb(193, 142, 242);
+  background-size: contain;
+  font-size: 18px;
+  line-height: 1.8em;
+  padding:10px 20px;
+  color: #0c0b0b;
+}
+.zs {
+  background-color: slategray;
+  background-size: contain;
+  font-size: 18px;
+  line-height: 1.8em;
+  padding:10px 20px;
+  color: #0c0b0b;
+}
+.shield {
+  background-color:indianred;
+  background-size: contain;
+  font-size: 18px;
+  line-height: 1.8em;
+  padding:10px 20px;
+  color: #0c0b0b;
+}
+.fy {
+  background-color:indigo;
+  background-size: contain;
+  font-size: 18px;
+  line-height: 1.8em;
+  padding:10px 20px;
+  color:antiquewhite;
+}
+.jy {
+  background-color:cornflowerblue;
+  background-size: contain;
+  font-size: 18px;
+  line-height: 1.8em;
+  padding:10px 20px;
+  color: #0c0b0b;
+}
+.hy {
+  background-color:brown;
+  background-size: contain;
+  font-size: 18px;
+  line-height: 1.8em;
+  padding:10px 20px;
+  color:black;
+}
+.cm {
+  background-color:darksalmon;
+  background-size: contain;
+  font-size: 18px;
+  line-height: 1.8em;
+  padding:10px 20px;
+  color: #0c0b0b;
+}

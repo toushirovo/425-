@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin:0;
+}
+header{
+    background-color:black;
+    height:80px;
+    width:100%;
+}
+h1{color: aliceblue;}
+header ul{
+    position:absolute ;
+    right:5vw;
+    top:0;
+    line-height:80px;
+  
+
+}
+.h1 p{
+position: absolute;
+left: 60px;
+}
+header li{
+    display:inline ;
+    margin-right:4vw;
+}
+header a {color: aliceblue;
+text-decoration: none;}
+header a:hover{
+    text-decoration: underline;
+}
+.news{
+    background-color: aliceblue;
+    color: white;
+    height:85vh;
+    background-image: url(images/9c33e0685514b43fbbdc759a125815c6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.news p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.news a{
+    font-size:25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 2px solid #000000;
+    padding: 7px 15px;
+    border-radius: 3px;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.p1{
+    display: flex;
+    background-color: rgb(19, 19, 19);
+    justify-content: space-between;
+    align-items: center;
+    padding:50px 90px 40px ;
+}
+.p1 img{
+    width: 500px; 
+}
+.p1 div{
+    width: 400px;
+
+}
+.niko{
+    background-color: rgb(19, 19, 19);
+    color: aliceblue;
+    font-size: 30px;
+}

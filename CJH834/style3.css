@@ -1,0 +1,15 @@
+.transparent-background{
+    height:100vh;
+    background-image:url("images/R-C.jpeg");
+    opacity: 0.7;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.lobster p{
+    font-size: 24px;
+    color: aliceblue;
+    position:absolute;
+    left:45px;
+    
+}

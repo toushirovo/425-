@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<style>
+    .tree ul {
+            position: relative;
+            padding: 38px;
+            transition: all 0.5s;
+        }
+        .tree li {
+            float: left; text-align: center;
+            list-style-type: none;
+            position: relative;
+            padding: 38px 38px 0 38px;
+        }
+        .tree li::before, .tree li::after{
+            content: '';
+            position: absolute; top: 0; right: 50%;
+            border-top: 2px solid #ccc;
+            width: 75%; height: 50px;
+        }
+        .tree li::after{
+            right: auto; left: 50%;
+            border-left: 1px solid #ccc;
+        }
+        .tree li::before, .tree li::after{
+            border-top: none;
+        }
+        .tree li:only-of-type::before, .tree li:only-of-type::after{
+            border: 0;
+        }
+        .tree li:first-child::before, .tree li:last-child::after{
+            border: 0;
+        }
+        .tree li:only-child::after, .tree li:only-child::before{
+            border: 0;
+        }
+        .tree li:only-of-type::after, .tree li:only-of-type::before{
+            border: 0;
+        }
+        .tree li:first-child::after, .tree li:last-child::before{
+            border: 0;
+        }
+        .tree li div {
+            display: inline-block;
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-decoration: none;
+        }
+        
+        body {
+            background-image: url("images/a7cb6ba03ecb8.png"); 
+            background-repeat: no-repeat; 
+            background-attachment: fixed; 
+            background-size: cover; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="tree">
+    
+    <ul>
+        <li>
+            <div><em>&hearts; 展望未来</em></div>
+            <ul>
+                <li><div>&hearts; 高GPA毕业</div></li>
+                <li><div>&hearts; 兴趣爱好</div>
+                    <ul>
+                        <li><div>&#x1F31F;breaking大神！！！</div></li>
+                        <li><div>&#x1F31F;钢琴业余10级</div></li>
+                    </ul>
+                </li>
+                <li><div>&hearts; 人见人爱</div></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+</style>
+
+    
+    
+
+</body>
+</html>
